@@ -48,6 +48,7 @@ should be the first argument of execve)
 we limit the number of "open files" to less than 30.
 
 for example this should work:
+
 ```bash
 $>./microshell /bin/ls "|" /usr/bin/grep microshell ";" /bin/echo i love 
 my microshell
@@ -55,8 +56,3 @@ microshell
 i love my microshell
 $>
 ```
-Hints:
-Don't forget to pass the environment variable to execve
-
-Hints:
-Do not leak file descriptors!
