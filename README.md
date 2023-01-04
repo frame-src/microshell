@@ -1,6 +1,5 @@
 # microshell
-
-
+--------------------------------------------------------------------------------------
 Assignment name  : microshell
 Expected files   : *.c *.h
 Allowed functions: malloc, free, write, close, fork, waitpid, signal, 
