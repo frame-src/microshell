@@ -1,11 +1,19 @@
 
 <h1> microshell </h1>
+
+
 --------------------------------------------------------------------------------------
+
+
 Assignment name  : microshell
 Expected files   : *.c *.h
 Allowed functions: malloc, free, write, close, fork, waitpid, signal, 
 kill, exit, chdir, execve, dup, dup2, pipe, strcmp, strncmp
+
+
 --------------------------------------------------------------------------------------
+
+
 
 Write a program that will behave like executing a shell command
 - The command line to execute will be the arguments of this program
